@@ -1,5 +1,6 @@
 const full = document.querySelector("#full");
-const today = new Date();
+const currentYear = new Date().getFullYear();
+document.getElementById("currentYear").textContent = currentYear;
 full.innerHTML = `Today is <span class="highlight">${new Intl.DateTimeFormat(
 	"en-US",
 	{
