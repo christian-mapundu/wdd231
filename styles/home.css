@@ -66,8 +66,13 @@ a{
     font-size: large;
     color: gold;
 }
+a:hover{
+    color: gold;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
 
-@media screen (max-width: 620px) {
+@media screen and (max-width: 620px) {
     /* Your CSS styles for screens 720px or smaller go here */ 
     *{
         font-size: 14px;
