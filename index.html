@@ -5,36 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="scripts/home.js" defer></script>
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home_small.css">
     <meta name="Description" content = WDD230 - Web Frontend Development | Christian Tawanda Mapundu>
     <meta name="author" content="Christian Tawanda Mapundu">
     <title>Home Page</title>
 </head>
 <body>
-    <header class="overhead">
-        <div class="heading">
+    <header class="heading">
             <img src="images/my_profile.jpg" alt="My Profile" loading = "lazy">
             <h1>Christian T. Mapundu</h1>
-        </div>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="#">Home</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Champer</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Github Profile</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">LinkedIn</a></li>
-            </ul>
-            <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
     </header>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Champer</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Github Profile</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
     <main>
         <div class="first">
             <section class="course-work">
@@ -43,11 +42,18 @@
                 <li></li>
                 <li></li>
             </section>
+            <section class="location">
+                <h2>Mutare, Zimbabwe</h2>
+                <img src="images/baobab_tree.jpg" alt="Baobab Tree" loading="lazy">
+            </section>
         </div>
-        <div class="second">
-            <h2>Mutare, Zimbabwe</h2>
-            <img src="images/baobab_tree.jpg" alt="Baobab Tree" loading="lazy">
-        </div>
+        <section class="form">
+            <h2 class="topic">Web and Computer Programmimg</h2>
+        </section>
     </main>
+    <footer>
+        <p>©️ Christian Tawanda Mapundu | Mutare, Zimbabwe</p>
+        <p id="full"></p>
+    </footer>
 </body>
 </html>

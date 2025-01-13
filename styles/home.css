@@ -1,23 +1,61 @@
+body{
+    width: 960px;
+    background: #fff;
+}
 .heading img{
-    width: 100px;
+    width: 120px;
+    box-shadow: 1px 1px white;
+    margin-right: 50px;
+    border-radius: 5px;
+    /* height: 100px; */
 }
 .overhead{
-    max-width: 960px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 40%;
 }
 .heading{
+    display: flex;
     text-align: center;
-    padding: 50px 0;
+    padding: 0 20%;
+    gap: 10px;
+    background-color: #444cbe;
 }
 .nav-bar{
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: rgb(2, 11, 20);
 }
+.first{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* box-shadow: 5px 5px 5px #242424; */
+    margin: 10px;
+}
+.location{
+    box-shadow: 5px -5px 5px 5px #242424;
+    padding: 20px;
+    background: #fff;
+    gap: 5px;
+    margin: 10px;
+}
+.course-work{
+    box-shadow: -5px -5px 5px 5px #242424;
+    padding: 20px;
+    background: #fff;
+    gap: 5px;
+    margin: 10px;
+}
+.location img{
+    width: 200px;
+    height: 300px;
+    border: 5px;
+}
+
 h1{
-    text-align: center;
-    border: 1px solid red;
+    color: white;
+    /* text-align: center; */
+    /* border: 1px solid red; */
 }
 ul {
     list-style: none;
@@ -25,4 +63,14 @@ ul {
 }
 a{
     text-decoration: none;
+    font-size: large;
+    color: gold;
+}
+
+@media screen (max-width: 620px) {
+    /* Your CSS styles for screens 720px or smaller go here */ 
+    *{
+        font-size: 14px;
+    }
+
 }
