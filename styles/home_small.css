@@ -1,0 +1,35 @@
+@media screen and (max-width: 620px) {
+    /* Your CSS styles for screens 720px or smaller go here */ 
+    body{
+        font-size: 14px;
+        width: 620px;
+    }
+    body{
+        display: grid;
+        color: navy;
+        background: #fff;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .nav-bar{
+        position: fixed;
+    }
+    .first{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid green;
+    }
+    .location img{
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+        right: 10px;
+    }
+    .location{
+        margin: 10px;
+        width: auto;
+        align-items: center;
+    }
+}
