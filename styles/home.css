@@ -114,3 +114,13 @@ body {
     margin-bottom: 10px;
     border: 5px;
 }
+
+@media only screen and (max-width: 600px){
+    .nav-bar ul{
+        display: block;
+    }
+    .burger{
+        display: block;
+        margin-top: 10px;
+    }
+}
