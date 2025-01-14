@@ -23,6 +23,7 @@ body{
 }
 .nav-bar{
     display: flex;
+    transition: 1s ease;
     list-style: none;
     justify-content: space-between;
     background-color: rgb(2, 11, 20);
