@@ -2,6 +2,7 @@ body{
     width: 960px;
     background: #fff;
     align-items: center;
+    font-family: Arial, sans-serif;
 }
 .heading img{
     width: 120px;
@@ -39,6 +40,7 @@ body{
     padding: 20px;
     background: #fff;
     gap: 5px;
+    /* width: 700px; */
     border-radius: 5px;
     margin: 10px;
 }
@@ -58,9 +60,27 @@ body{
 
 h1{
     color: white;
-    /* text-align: center; */
-    /* border: 1px solid red; */
+    text-align: center;
 }
+<<<<<<< HEAD
+.container {
+    display: flex;
+}
+  
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+}
+  
+.filter-buttons {
+    margin-top: 20px;
+}
+  
+.filter-buttons button {
+    background-color: #4CAF50
+=======
   
 /* .sidebar {
   background-color: #333;
@@ -74,10 +94,11 @@ button {
 }
 button {
   background-color: #4CAF50
+>>>>>>> 45d421a8907c1e0b4b7a061847c7d479b059e226
 }  
 h2{
     text-align: center;
-    background-color: #444cbe;
+    background-color: #dbdded;
     height: 50px;
     padding-top: 10px;
     margin: 0 auto;
@@ -101,11 +122,6 @@ a:hover{
     font-weight: bolder;
 }
 
-
-body {
-    font-family: Arial, sans-serif;
-}
-
 #courseList {
     margin-top: 20px;
 }
@@ -115,6 +131,8 @@ body {
     padding: 20px;
     margin-bottom: 10px;
     border: 5px;
+<<<<<<< HEAD
+=======
 }
 .burger{
     display: none;
@@ -131,4 +149,5 @@ body {
 }
 .link{
     transition: 0.7s ease;
+>>>>>>> 45d421a8907c1e0b4b7a061847c7d479b059e226
 }
