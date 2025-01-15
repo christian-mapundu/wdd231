@@ -23,7 +23,7 @@ body{
 }
 .nav-bar{
     display: flex;
-    transition: 1s ease;
+    transition: 0.5s ease;
     list-style: none;
     justify-content: space-between;
     background-color: rgb(2, 11, 20);
@@ -50,6 +50,7 @@ body{
     margin: 10px;
 }
 .location img{
+    margin-top: 10px;
     width: 200px;
     height: 300px;
     border: 5px;
@@ -60,24 +61,20 @@ h1{
     /* text-align: center; */
     /* border: 1px solid red; */
 }
-.container {
-    display: flex;
-  }
   
-  .sidebar {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    width: 200px;
-  }
-  
-  .filter-buttons {
+/* .sidebar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width: 200px; */
+/* } */
+
+button {
     margin-top: 20px;
-  }
-  
-  .filter-buttons button {
-    background-color: #4CAF50
-  }  
+}
+button {
+  background-color: #4CAF50
+}  
 h2{
     text-align: center;
     background-color: #444cbe;
@@ -86,8 +83,8 @@ h2{
     margin: 0 auto;
     border-radius: 10px;
 }
-ul {
-    
+.menu {
+    display: flex;
 }
 a{
     text-decoration: none;
@@ -115,13 +112,19 @@ body {
     margin-bottom: 10px;
     border: 5px;
 }
-
-@media only screen and (max-width: 600px){
-    .nav-bar ul{
-        display: block;
-    }
-    .burger{
-        display: block;
-        margin-top: 10px;
-    }
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.line{
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 5px auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: rgb(102, 14, 14);
+}
+.link{
+    transition: 0.7s ease;
 }
