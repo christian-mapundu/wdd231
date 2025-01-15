@@ -19,22 +19,22 @@
             <h1>Christian T. Mapundu</h1>
     </header>
     <nav class="nav-bar">
-        <ul>
-            <li><a href="#">Home</a></li>
+        <ul class="menu">
+            <li class="item"><a href="#" class="link">Home</a></li>
         </ul>
-        <ul>
-            <li><a href="#">Champer</a></li>
+        <ul class="menu">
+            <li class="item"><a class="link" href="#">Champer</a></li>
         </ul>
-        <ul>
-            <li><a href="#">Github Profile</a></li>
+        <ul class="menu">
+            <li class="item"><a href="#" class="link">Github Profile</a></li>
         </ul>
-        <ul>
-            <li><a href="#">LinkedIn</a></li>
+        <ul class="menu">
+            <li class="item"><a href="#" class="link">LinkedIn</a></li>
         </ul>
         <div class="burger">
-            <span></span>
-            <span></span>
-            <span></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
         </div>
     </nav>
     <main>
@@ -56,14 +56,12 @@
                 <img src="images/baobab_tree.jpg" alt="Baobab Tree" loading="lazy">
             </section>
         </div>
-        <section>
+        <section class="course-list">
             <h2>Courses</h2>
             <button onclick="filterCourses('all')">All</button>
             <button onclick="filterCourses('CSE')">CSE</button>
             <button onclick="filterCourses('WDD')">WDD</button>
             <div id="courseList"></div>
-        
-            <script src="script.js"></script>
         </section>
     </main>
     <footer>

@@ -1,10 +1,21 @@
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 768px) {
     /* Your CSS styles for screens 720px or smaller go here */ 
+    .burger{
+        display: block;
+
+    }
+    .burger.active .line:nth-child(2){
+        opacity: 0;
+    }
+    .burger.active .line:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .burger.active .line:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
     body{
         font-size: 14px;
         width: 620px;
-    }
-    body{
         display: grid;
         color: navy;
         background: #fff;
@@ -13,7 +24,22 @@
     }
     .nav-bar{
         position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #252525;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
     }
+    .nav-bar.active{
+        left:0;
+    }
+    .item{
+        margin: 15px;
+    }
+
     .first{
         display:flex;
         flex-direction: column;
