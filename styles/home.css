@@ -83,10 +83,14 @@ h2{
     margin: 0 auto;
     border-radius: 10px;
 }
+.heading{
+    
+}
 .menu {
     display: flex;
 }
-a{
+.link{
+
     text-decoration: none;
     font-size: large;
     color: gold;

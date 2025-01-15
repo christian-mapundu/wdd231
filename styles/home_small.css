@@ -34,7 +34,7 @@
         transition: 0.3s;
     }
     .nav-bar.active{
-        left:0;
+        /* left:0; */
     }
     .item{
         margin: 15px;
