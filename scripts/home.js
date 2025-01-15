@@ -35,3 +35,6 @@ function filterCourses(subject) {
     displayCourses(filteredCourses);
   }
 }
+
+const year = new Date().getFullYear();
+document.getElementById("currentYear").year;
