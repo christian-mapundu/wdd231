@@ -1,0 +1,74 @@
+@media screen and (max-width: 728px){
+    .body img{
+        width: 620px;
+        height: 400px;
+        border-top: 14px solid #fff;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .events{
+        display: flex;
+    }
+    .weather{
+        display: grid;
+        grid-template-columns: rows;
+        flex-direction: ;
+    }
+    .forecast{
+        display: flex;
+        flex-direction: column;
+    }
+    .bus{
+        display: flex;
+        flex-direction: column;
+    }
+    .bus-name{
+        width: 720px;
+    }
+    .bus-info{
+        /* display: grid; */
+    }
+    .bus img{
+        width: 90px;
+        height: 90px;
+    }
+    .main{
+        width: 721px;
+        
+    }
+    .weather-info img{
+        width: 60px;
+    }
+	.hamburger{
+		display: block;
+	}
+	.hamburger.active .bar:nth-child(2){
+		opacity: 0;
+	}
+	.hamburger.active .bar:nth-child(1){
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger.active .bar:nth-child(3){
+		Transform: translateY(-8px) rotate(-45deg);
+	}
+	.nav-menu{
+		position: fixed;
+		left: -100%;
+		top: 70px;
+		gap: 0;
+		flex-direction: column;
+		background-color: #242323;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+	}
+	.nav-item{
+		margin: 6px 0;
+	}
+	.nav-menu.active{
+		left: 0;
+	}
+
+}
