@@ -5,20 +5,21 @@
     /* width: auto; */
 }
 body{
-    width: 960px;
+    max-width: 960;
     align-items: center;
 }
 header{
     width: auto;
 }
 main{
-    width: 960px;
+    max-width: 960px;
 }
 picture{
     width: auto;
 }
 header{
 	background-color: #242323;
+    max-width: 960px;
 }
 li{
 	list-style: none;
@@ -122,4 +123,9 @@ footer{
     display: flex;
     gap: 10px;
     margin: 60px 20px;
+}
+.media-links{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    gap: 5px;
 }
