@@ -60,6 +60,16 @@
         width: 60px;
         height: 60px;
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar{
+        position: fixed;
+        background-color: #f539c6;
+        width: 100%;
+    }
 	.hamburger{
 		display: block;
 	}
@@ -89,5 +99,9 @@
 	.nav-menu.active{
 		left: 0;
 	}
-
+    .media-links{
+        display: grid;
+        grid-template-columns: 30px 30px 30px;
+        gap: 20px;
+    }
 }

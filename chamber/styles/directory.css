@@ -82,9 +82,11 @@ h2{
     text-align: center;
 }
 .home{
-    display: flex;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
     margin: 20px;
 }
+
 .weather{
     display: grid;
     margin: auto 10px;
@@ -119,5 +121,5 @@ span{
 footer{
     display: flex;
     gap: 10px;
-    margin: 20px;
+    margin: 60px 20px;
 }
