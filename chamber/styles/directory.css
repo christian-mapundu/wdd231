@@ -81,18 +81,11 @@ h2{
     background: #262626;
     text-align: center;
 }
-/* .body img{
-    width: 960px;
-    height: 465px;
-    display: flex;
-} */
 .home{
     display: flex;
     margin: 20px;
-    /* gap: 50x; */
 }
 .weather{
-    /* border: 2px solid rgb(199, 32, 60); */
     display: grid;
     margin: auto 10px;
 }
@@ -108,7 +101,6 @@ h2{
 .weather-info img{
     width: 40px;
     height: 40px;
-    /* border: 1px solid green; */
 }
 .bus{
     display: flex;
@@ -123,4 +115,9 @@ h2{
 }
 span{
     font-weight: bold;
+}
+footer{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
 }

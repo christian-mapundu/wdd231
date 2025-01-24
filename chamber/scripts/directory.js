@@ -23,3 +23,6 @@ function updateDateTime() {
 
   // Initial update
   updateDateTime();
+
+  // Update every second
+  setInterval(updateDateTime); 
