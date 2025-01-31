@@ -33,7 +33,7 @@
     }
     .weather{
         display: grid;
-        grid-template-columns: column;
+        /* grid-template-columns: column; */
     }
     .forecast{
         display: flex;
