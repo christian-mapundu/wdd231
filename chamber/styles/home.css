@@ -1,0 +1,153 @@
+body{
+    width: 960px;
+    background: #fff;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.heading img{
+    width: 120px;
+    box-shadow: 1px 1px white;
+    margin-right: 50px;
+    border-radius: 5px;
+    /* height: 100px; */
+}
+.overhead{
+    margin: 0 auto;
+    padding: 0 40%;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    padding: 0 20%;
+    gap: 10px;
+    background-color: #444cbe;
+}
+.nav-bar{
+    display: flex;
+    transition: 0.5s ease;
+    list-style: none;
+    justify-content: space-between;
+    background-color: rgb(2, 11, 20);
+}
+.first{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* box-shadow: 5px 5px 5px #242424; */
+    margin: 10px;
+}
+.location{
+    box-shadow: 5px -5px 5px 5px #242424;
+    padding: 20px;
+    background: #fff;
+    gap: 5px;
+    /* width: 700px; */
+    border-radius: 5px;
+    margin: 10px;
+}
+.course-work{
+    box-shadow: -5px -5px 5px 5px #242424;
+    padding: 20px;
+    background: #fff;
+    gap: 5px;
+    margin: 10px;
+}
+.location img{
+    margin-top: 10px;
+    width: 200px;
+    height: 300px;
+    border: 5px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+<<<<<<< HEAD
+.container {
+    display: flex;
+}
+  
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+}
+  
+.filter-buttons {
+    margin-top: 20px;
+}
+  
+.filter-buttons button {
+    background-color: #4CAF50
+=======
+  
+/* .sidebar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width: 200px; */
+/* } */
+
+button {
+    margin-top: 20px;
+}
+button {
+  background-color: #4CAF50
+>>>>>>> 45d421a8907c1e0b4b7a061847c7d479b059e226
+}  
+h2{
+    text-align: center;
+    background-color: #dbdded;
+    height: 50px;
+    padding-top: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.heading{
+    
+}
+.menu {
+    display: flex;
+}
+.link{
+
+    text-decoration: none;
+    font-size: large;
+    color: gold;
+}
+a:hover{
+    color: gold;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#courseList {
+    margin-top: 20px;
+}
+
+.course-row {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 5px;
+<<<<<<< HEAD
+=======
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.line{
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 5px auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: rgb(102, 14, 14);
+}
+.link{
+    transition: 0.7s ease;
+>>>>>>> 45d421a8907c1e0b4b7a061847c7d479b059e226
+}

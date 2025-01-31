@@ -1,3 +1,65 @@
-member = {
-    []
-}
+[
+    {
+        "name": "Tech Innovators Inc.",
+        "address": "123 Silicon Valley, CA",
+        "phone": "(123) 456-7890",
+        "website": "https://techinnovators.com",
+        "image": "techinnovators.png",
+        "membership": 3,
+        "description": "Leading the future of AI and automation."
+    },
+    {
+        "name": "Green Energy Solutions",
+        "address": "456 Renewable St, NY",
+        "phone": "(234) 567-8901",
+        "website": "https://greenenergy.com",
+        "image": "greenenergy.png",
+        "membership": 2,
+        "description": "Committed to a cleaner and greener world."
+    },
+    {
+        "name": "Fast Lane Logistics",
+        "address": "789 Transport Ave, TX",
+        "phone": "(345) 678-9012",
+        "website": "https://fastlanelogistics.com",
+        "image": "fastlane.png",
+        "membership": 1,
+        "description": "Delivering speed and reliability in logistics."
+    },
+    {
+        "name": "Global FinTech Corp.",
+        "address": "101 Wall Street, NY",
+        "phone": "(456) 789-0123",
+        "website": "https://globalfintech.com",
+        "image": "fintech.png",
+        "membership": 3,
+        "description": "Revolutionizing digital finance solutions."
+    },
+    {
+        "name": "Urban Builders",
+        "address": "202 Construction Rd, FL",
+        "phone": "(567) 890-1234",
+        "website": "https://urbanbuilders.com",
+        "image": "urbanbuilders.png",
+        "membership": 2,
+        "description": "Building the cities of tomorrow."
+    },
+    {
+        "name": "Elite Marketing Group",
+        "address": "303 Branding Lane, CA",
+        "phone": "(678) 901-2345",
+        "website": "https://elitemarketing.com",
+        "image": "marketing.png",
+        "membership": 1,
+        "description": "Creative strategies for brand growth."
+    },
+    {
+        "name": "CyberShield Security",
+        "address": "404 Secure Blvd, DC",
+        "phone": "(789) 012-3456",
+        "website": "https://cybershield.com",
+        "image": "cybershield.png",
+        "membership": 3,
+        "description": "Protecting businesses with cutting-edge cybersecurity."
+    }
+]
