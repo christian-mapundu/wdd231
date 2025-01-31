@@ -11,12 +11,20 @@ body{
 header{
     width: auto;
 }
+
 main{
     max-width: 960px;
 }
 picture{
     width: auto;
 }
+.body img {
+    max-width: 90%;  /* Ensures the image doesn’t take the full width */
+    height: auto;    
+    display: block;  
+    margin: 0 auto;  
+}
+
 header{
 	background-color: #242323;
     max-width: 960px;
