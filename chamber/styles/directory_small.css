@@ -4,6 +4,7 @@
     }
     body{
         overflow-x: hidden;
+        width: auto;
     }
     .body img{
         width: 720px;
@@ -68,18 +69,13 @@
     }
     .cards {
         display: flex;
-        flex-direction: column;
-        gap: 15px;
-        padding: 10px;
-    }
-    
-    .card {
-        display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         padding: 10px;
         background: #f9f9f9;
         border: 1px solid #ddd;
+        
         border-radius: 8px;
         width: 100%;
         box-sizing: border-box;
