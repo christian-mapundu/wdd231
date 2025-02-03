@@ -1,5 +1,6 @@
 body{
     width: 1060px;
+    margin: 0;
     background: #1E1E1E;
 }
 .headings{
@@ -61,7 +62,7 @@ body{
     border: 1px solid red;
   }
   .mission-goals{
-    display: flex;
+    /* display: flex; */
   }
   .mission{
     /* display: grid; */
@@ -75,6 +76,10 @@ body{
     border-radius: 10px;
     max-width: 600px;
     margin: auto;
+}
+main {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .goal-item {
@@ -91,8 +96,35 @@ body{
     padding-top: 0;
     width: 300px;
 }
-footer p{
-    color: black;
-    background: white;
-    height: auto;
+footer {
+    background: #202024; /* Dark background for contrast */
+    color: white; /* White text for readability */
+    text-align: center; /* Center align text */
+    padding: 20px 0; /* Add some padding for spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-links {
+    display: flex;
+    gap: 20px; /* Space between icons */
+    margin-bottom: 10px;
+}
+
+.media-links img {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+    /* filter: brightness(0) invert(1); Make icons white */
+    transition: transform 0.3s ease;
+}
+
+.media-links img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+footer p {
+    font-size: 14px; 
+    margin: 5px 0; /* Space out paragraphs */
 }
