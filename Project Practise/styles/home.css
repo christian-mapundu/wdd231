@@ -1,0 +1,98 @@
+body{
+    width: 1060px;
+    background: #1E1E1E;
+}
+.headings{
+    background: #202024;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .headings img{
+    width: 80px;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  h1{
+    padding-top: 30px;
+    margin-left: 10px;
+    padding: 40px; 
+    color: #fffe;
+  }
+  h2, h3{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+  .navMenu{
+    display: flex;
+  }
+  .navlink, ul,li{
+    padding-right: 20px;
+    padding-top: 30px;
+    color: #fffe;
+    margin: 0;
+    font-size: large;
+    text-decoration: none;
+    list-style: none;
+  }
+  .navlink:hover{
+    color: red;
+    transition: 0.7s ease-out;
+  }
+  .about{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+  }
+  .about-info{
+    display: grid;
+    grid-template-columns: 50px auto;
+  }
+  
+  p{
+    color: #fff;
+  }
+  div img{
+    width: 50px;
+    align-items: center;
+    margin-top: 70%;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid red;
+  }
+  .mission-goals{
+    display: flex;
+  }
+  .mission{
+    /* display: grid; */
+  }
+  .goals-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.goal-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+.goals-container h3{
+    color: purple;
+}
+.mission img{
+    padding-top: 0;
+    width: 300px;
+}
+footer p{
+    color: black;
+    background: white;
+    height: auto;
+}
