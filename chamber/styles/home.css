@@ -2,12 +2,62 @@ body{
     width: 1200px;
 
 }
-/* .content img {
-    max-width: 90%;  Ensures the image doesn’t take the full width
-    height: 10%;    
-    display: block;  
-    margin: 0 auto;
-} */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: #242323;
+}
+li{
+	list-style: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.navbar{
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+}
+.nav-menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 60px;
+}
+.navbranding{
+	font-size: 2rem;
+	transition: 0.7s ease;
+}
+.navbranding:hover{
+	color: red;
+	cursor: pointer;
+}
+.nav-link{
+	transition: 0.7s ease;
+}
+.nav-link:hover{
+	color: red;
+}
+.hamburger{
+	display: none;
+	curser: pointer;
+}
+.bar{
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px;
+	-webkit-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+	background: white;
+}
 .hero{
     display: grid;
     grid-template-columns: 600px 350px;
@@ -30,22 +80,12 @@ body{
     color: white; /* Ensure text is visible */
     background: rgba(0, 0, 0, 0.5); /* Optional: Add a background for better visibility */
     padding: 10px;
-    border-radius: 5px; /* Optional: Add rounded corners */
-}
-.hero img{
-    width: 360px;
-    height: 600px;
-}
-
-
-
-
-
+    border-radius: 5px; 
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 .current-events {
     text-align: center;
     padding: 20px;
 }
-
 .current-events h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
@@ -84,15 +124,6 @@ body{
     margin: 5px 0;
 }
 
-/* Mobile Responsive */
-@media screen and (max-width: 650px) {
-    .event {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .event-card {
-        width: 100%;
-    }
-}
+
 
