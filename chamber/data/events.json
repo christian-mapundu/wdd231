@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Fundraising Gala",
+        "image": "images/fundraising.jpg",
+        "date": "2025-03-15",
+        "objective": "Raising funds for local businesses and community projects.",
+        "location": "Timbuktu City Hall",
+        "time": "6:00 PM - 10:00 PM"
+    },
+    {
+        "title": "Business Auctions",
+        "image": "images/auction.jpg",
+        "date": "2025-04-10",
+        "objective": "Auctioning business assets to support entrepreneurship.",
+        "location": "Timbuktu Trade Center",
+        "time": "2:00 PM - 5:00 PM"
+    },
+    {
+        "title": "Webinar: Future of Business",
+        "image": "images/webinar.jpg",
+        "date": "2025-05-05",
+        "objective": "Discussing the future trends and strategies in business.",
+        "platform": "Zoom",
+        "time": "4:00 PM - 6:00 PM"
+    },
+    {
+        "title": "Business Training Workshop",
+        "image": "images/training.jpg",
+        "date": "2025-06-20",
+        "objective": "Helping entrepreneurs develop essential business skills.",
+        "location": "Timbuktu Business Hub",
+        "time": "9:00 AM - 3:00 PM"
+    },
+    {
+        "title": "Annual General Meeting",
+        "image": "images/agm.jpg",
+        "date": "2025-07-12",
+        "objective": "Reviewing the year's achievements and setting future goals.",
+        "location": "Chamber of Commerce Conference Hall",
+        "time": "10:00 AM - 1:00 PM"
+    }
+]
