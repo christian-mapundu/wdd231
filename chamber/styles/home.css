@@ -131,7 +131,7 @@ a{
 
 /* Basic button styles for large screens */
 .cta-button {
-    background-color: #008CBA; /* Blue background */
+    background-color: #ba006c; /* Blue background */
     color: white; /* White text */
     border: none; /* No border */
     padding: 15px 32px; /* Padding for size */
@@ -146,7 +146,7 @@ a{
 
 /* Hover effect */
 .cta-button:hover {
-    background-color: #005f73; /* Darker blue on hover */
+    background-color: #5a074f; /* Darker blue on hover */
 }
 
 
