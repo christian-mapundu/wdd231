@@ -6,11 +6,14 @@
 	.content{
 		width: 648px;
 	}
+
+	.hero .cyber{
+		position: inherit;
+	}
     .event{
         flex-direction: column;
         align-items: center;
     }
-
     .event-card {
         width: 100%;
     }

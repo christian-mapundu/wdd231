@@ -51,7 +51,7 @@ function navigate() {
 const events = [
     {
         title: "Tech Innovation in Timbuktu",
-        image: "images/tech-Innovaton",
+        image: "images/Tech-Innovations.webp",
         description: "A local startup launched an innovative solar-powered internet hub, bringing connectivity to remote areas and fostering digital education."
     },
     {

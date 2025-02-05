@@ -131,24 +131,30 @@ a{
 
 /* Basic button styles for large screens */
 .cta-button {
-    background-color: #ba006c; /* Blue background */
-    color: white; /* White text */
-    border: none; /* No border */
-    padding: 15px 32px; /* Padding for size */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Inline-block display */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-radius: 8px; /* Rounded corners */
+    background-color: #ba006c;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 8px; 
 }
 
 /* Hover effect */
 .cta-button:hover {
-    background-color: #5a074f; /* Darker blue on hover */
+    background-color: #5a074f;
 }
-
+.cta-container {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    text-align: center;
+}
 
 .spotlights div {
     border: 1px solid #ddd;
