@@ -1,5 +1,5 @@
 body{
-    width: 1200px;
+    width: 960px;
 
 }
 *{
@@ -47,7 +47,7 @@ a{
 }
 .hamburger{
 	display: none;
-	curser: pointer;
+	cursor: pointer;
 }
 .bar{
 	display: block;
@@ -61,12 +61,16 @@ a{
 .hero{
     display: grid;
     grid-template-columns: 600px 350px;
+    background-image: url("../images/li-River-China.jpg")
 }
-.hero .cyber {
+.hero .cyber{
     position: relative;
     display: inline-block; /*Adjust if needed */
+    /* width: 480px; */
 }
-
+.green-energy{
+    width: 480px;
+}
 .hero .cyber img {
     width: 100%; /* Ensure the image spans the required width */
     height: auto;
@@ -123,6 +127,43 @@ a{
     font-size: 1rem;
     margin: 5px 0;
 }
+/* styles.css */
+
+/* Basic button styles for large screens */
+.cta-button {
+    background-color: #008CBA; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 15px 32px; /* Padding for size */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block display */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Hover effect */
+.cta-button:hover {
+    background-color: #005f73; /* Darker blue on hover */
+}
+
+
+.spotlights div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
 
 
 
