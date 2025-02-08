@@ -134,7 +134,7 @@ a{
     background-color: #ba006c;
     color: white;
     border: none;
-    padding: 15px 32px;
+    padding: 15px 112px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -167,7 +167,21 @@ img {
     height: auto;
     border-radius: 5px;
 }
-
+#weather-section {
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+#weather-container, #forecast-container {
+    text-align: center;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+}
+.first img{
+    width: 200px;
+}
 
 
 

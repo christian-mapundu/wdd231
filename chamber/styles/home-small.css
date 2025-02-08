@@ -6,10 +6,12 @@
 	.content{
 		width: 648px;
 	}
-
-	.hero .cyber{
-		position: inherit;
-	}
+    .cyber img{
+        padding-top: 80px
+    }
+    .hero img{
+        padding-top: 80px;
+    }
     .event{
         flex-direction: column;
         align-items: center;
@@ -18,7 +20,7 @@
         width: 100%;
     }
 	.cta-button {
-        padding: 12px 24px; /* Adjust padding */
+        padding: 42x 94px; /* Adjust padding */
         font-size: 14px; /* Adjust font size */
         width: 100%; /* Full width on mobile */
         box-sizing: border-box; /* Include padding and border in element's total width and height */

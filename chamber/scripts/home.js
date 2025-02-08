@@ -88,3 +88,66 @@ events.forEach((event, index) => {
     eventDiv.appendChild(img);
     eventDiv.appendChild(desc);
 });
+
+// Current Weather section
+const apiKey = 'f3c5734b2345dceaf2c253ae0d19cdc1';
+    const city = 'Mutare';
+    const country = 'ZW';
+    const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&appid=${apiKey}`;
+    const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city},${country}&units=metric&appid=${apiKey}`;
+
+    async function fetchWeather() {
+        try {
+            const response = await fetch(weatherUrl);
+            const data = await response.json();
+            document.getElementById('temp').textContent = data.main.temp;
+            document.getElementById('description').textContent = data.weather[0].description;
+        } catch (error) {
+            console.error('Error fetching weather data:', error);
+        }
+    }
+
+    async function fetchForecast() {
+        try {
+            const response = await fetch(forecastUrl);
+            const data = await response.json();
+            const forecastContainer = document.getElementById('forecast-container');
+            forecastContainer.innerHTML = '';
+            
+            const dailyData = {};
+            data.list.forEach(entry => {
+                const date = entry.dt_txt.split(' ')[0];
+                if (!dailyData[date]) {
+                    dailyData[date] = entry.main.temp;
+                }
+            });
+            
+            let count = 0;
+            for (let date in dailyData) {
+                if (count >= 3) break;
+                const forecastEl = document.createElement('p');
+                forecastEl.innerHTML = `<strong>${date}:</strong> ${dailyData[date]}°C`;
+                forecastContainer.appendChild(forecastEl);
+                count++;
+            }
+        } catch (error) {
+            console.error('Error fetching forecast data:', error);
+        }
+    }
+
+    fetchWeather();
+    fetchForecast();
+
+// Footer section
+function updateDateTime() {
+    const now = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+    const formattedDateTime = now.toLocaleString('en-US', options);
+    document.getElementById("lastModified").innerHTML = formattedDateTime; 
+  }
+
+  // Initial update
+  updateDateTime();
+
+  // Update every second
+  setInterval(updateDateTime); 
