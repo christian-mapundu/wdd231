@@ -1,0 +1,45 @@
+boby{
+    background: #1E1E1E;
+    margin: 20px;
+    padding: 20px;
+}
+main, header{
+    max-width: 960px;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    margin: 10px;
+}
+a:hover{
+    color: red;
+    transition: 2s ease-out;
+    font-size: larger;
+    text-decoration: none;
+}
+section{
+    border: 5px solid #fff;
+    box-shadow: 5px 5px purple;
+}
+.major{
+    color: rgb(55, 0, 255);
+    font-size: large;
+}
+ul{
+    padding: 10px;
+}
+li,p,img {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+h1{
+    margin: 0;
+}
+h1,h2,h3{
+    color: #fff;
+    border-radius: 12px;
+    text-align: center;
+    background: #202024;
+    padding: 15px;
+}

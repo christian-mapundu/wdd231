@@ -17,7 +17,7 @@ body{
     padding-top: 30px;
     margin-left: 10px;
     padding: 40px; 
-    color: #fffe;
+    color: #fff;
   }
   h2, h3{
     font-size: 30px;
@@ -30,7 +30,7 @@ body{
   .navlink, ul,li{
     padding-right: 20px;
     padding-top: 30px;
-    color: #fffe;
+    color: #fff;
     margin: 0;
     font-size: large;
     text-decoration: none;
