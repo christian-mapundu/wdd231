@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/home-small.css">
     <link rel="stylesheet" href="styles/get-started.css">
-    <script src="scripts/get-started.js" defer></script>
-    <script src="scripts/home.js" defer></script>
+    <!-- <script src="scripts/get-started.js" defer></script> -->
+    <!-- <script src="scripts/home.js" defer></script> -->
     <title>Connekt Learning Hub</title>
 </head>
 <body>
@@ -36,10 +36,13 @@
     <button class="hamburger">&#9776;</button>
 </header>
     <main>
-        <picture>
-          <source srcset="images/hero_image-768.webp">
-          <img src="images/hero_image.webp" alt="hero image" loading="lazy">
-        </picture>
+      <picture>
+        <source srcset="images/hero_image-600.webp" media="(max-width: 600px)">
+        <source srcset="images/hero_image_small.webp" media="max-width: 600px">
+        <source srcset="images/hero_image-768.webp" media="max-width: 768px">
+        <source srcset="images/hero_image-768.webp" media="(max-width: 800px)">
+        <img src="images/hero_image1.webp" alt="hero image" loading="lazy">
+      </picture>
         <section>
             <h2>About The connect Connekt Learning Hub</h2>
             <div class="about">
