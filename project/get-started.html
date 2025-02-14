@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <meta name="author" content="Christian Tawanda Mapundu">
+    <meta name="description" content="Project Connekt Learning Hub : WDD 231 Web Fronted Development I | Christian Tawanda Mapundu">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Connecting Businesses and creationg opportunities for growth.">
+    <meta property="og:image" content="http://mutarecityservicedeliveryplatform.co.zw/wp-content/uploads/sites/309/2018/04/mutare-1-1080x675.jpg">
+    <meta property="og:url" content="https://christian-mapundu.github.io/wdd231/project/project-site-plan.html">
+    <meta name="twitter:card" content="summary_of_the_page">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-small.css">
+    <link rel="stylesheet" href="styles/get-started.css">
+    <script src="scripts/get-started.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/home-small.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="headings">
+        <div class="logo">
+            <img src="images/logo.webp" alt="Logo of a black ring" loading="lazy">
+        </div>
+        <h1>Connekt Learning Hub</h1>
+        <nav class="navMenu">
+            <ul id="navMenu">
+                <li><a href="index.html" class="navlink">Home</a></li>
+                <li><a href="get-started.html" class="navlink">Get Started</a></li>
+                <li><a href="meet-connekt.html" class="navlink">Meet Connekt</a></li>
+                <li><a href="faculty.html" class="navlink">Faculty</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger">&#9776;</button>
+    </header>
+    <main>
+        <section class="hero-container">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 1000px)">
+                <source srcset="images/get-started-hero.webp">
+                <source srcset="images/get-started-hero.webp" media="(min-width: 769px)">
+                <img src="images/get-started-hero.jpg" alt="Get Started Hero Image" loading="lazy">
+            </picture>
+            <button type="submit" class="centered">Get started</button>
+        </section>
+        <section>
+            <h2>Why should you get started</h2>
+            <div class="one">
+                <h3>Personalised Learning and Mentorship</h3>
+                <p>At Connekt Learning Hub, education goes beyond textbooks. You get access to expert tutors for academic guidance and mentors for career development. Whether you need help mastering a subject or shaping your career path, our personalized support ensures you learn at your own pace with real-world insights.</p>
+
+            </div>
+            <div class="two">
+                <h3>Build A Network That Elevates You</h3>
+                <p>Success isn’t just about what you know—it’s about who you know. By joining Connekt Learning Hub, you connect with professionals and peers who can open doors to new opportunities. Networking with mentors and like-minded students helps you gain industry insights, career advice, and lifelong connections.</p>
+                
+            </div>
+            <div class="three">
+                <h3>Gain In Demand Skills For The Future</h3>
+                <p>Education should prepare you for the real world. That’s why we focus on essential skills like digital marketing, communication, and soft skills—critical assets in any career. Employers seek adaptable, skilled professionals, and through our hub, you’ll gain the competitive edge needed to thrive in today’s fast-changing job market.Would you like me to refine these or expand on any specific point? 🚀</p>
+            </div>
+        </section>
+        <section class="testimonials-section">
+            <h2>What Students Are Saying</h2>
+            <div id="testimonial-list"></div>
+        </section>
+        <div class="container">
+            <h2>Get Started</h2>
+            <div id="study-areas" class="study-areas"></div>
+            
+            <div id="tutors-mentors" class="hidden">
+                <h2>Available Tutors & Mentors</h2>
+                <div id="list"></div>
+            </div>
+            
+            <div id="requests" class="hidden">
+                <h2>Student Requests</h2>
+                <div id="student-requests"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="media-links">
+            <img src="images/youtube.svg" alt="Youtube">
+            <img src="images/twitter.svg" alt="twitter">
+            <img src="images/linkedin.svg" alt="LinkedIn">
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Christian Tawanda Mapundu</p>
+            <p>©️ 2025 Timbuktu Chamber of Commerce</p>
+            <p>Last Modified <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

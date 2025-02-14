@@ -1,3 +1,8 @@
+document.querySelector('.hamburger').addEventListener('click', () => {
+    const navMenu = document.querySelector('.navMenu');
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+});
+
 // JavaScript to populate the goals section
 document.addEventListener("DOMContentLoaded", function () {
     const goals = [
@@ -34,3 +39,18 @@ document.addEventListener("DOMContentLoaded", function() {
     lastModifiedSpan.textContent = formattedDate;
 });
 
+
+
+
+function updateDateTime() {
+    const now = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+    const formattedDateTime = now.toLocaleString('en-US', options);
+    document.getElementById("lastModified").innerHTML = formattedDateTime; 
+  }
+
+  // Initial update
+  updateDateTime();
+
+  // Update every second
+  setInterval(updateDateTime); 

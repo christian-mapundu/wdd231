@@ -1,0 +1,51 @@
+.headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.logo img {
+    max-width: 50px;
+}
+
+.navMenu ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    color: white;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .navMenu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+    }
+    
+    .navMenu ul {
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+}
