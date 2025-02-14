@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+    body{
+        width: 768px;
+    }
     .navMenu {
         display: none;
         flex-direction: column;
