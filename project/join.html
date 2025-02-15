@@ -13,11 +13,12 @@
     <meta property="og:url" content="https://christian-mapundu.github.io/wdd231/project/project-site-plan.html">
     <meta name="twitter:card" content="summary_of_the_page">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/join.css">
     <link rel="stylesheet" href="styles/home-small.css">
     <link rel="stylesheet" href="styles/get-started.css">
     <script src="scripts/get-started.js" defer></script>
     <script src="scripts/home.js" defer></script>
-    <script src="scripts/home-small.js" defer></script>
+    <script src="scripts/join.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -88,7 +89,13 @@
                 <a href="#" onclick="openModal('modal-platinum')">Learn More</a>
             </div>
         </div>
-        
+        <div id="modal-bronze" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal-bronze')">&times;</span>
+                <h2>Bronze Membership</h2>
+                <p>Benefits: Event discounts.</p>
+            </div>
+        </div>        
     </main>
     <footer>
         <div class="media-links">
