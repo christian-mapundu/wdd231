@@ -37,6 +37,57 @@
         <button class="hamburger">&#9776;</button>
     </header>
     <main>
+        <h2>Join Us At Timbuktu</h2>
+        <form action="thankyou.html" method="POST">
+            <label>
+                First Name:
+                <input type="text" name="first_name" required>
+            </label>
+            <label>
+                Last Name:
+                <input type="text" name="last_name" required>
+            </label>
+            <label>
+                Email:
+                <input type="email" name="email" required>
+            </label>
+            <label>
+                Mobile Number:
+                <input type="tel" name="mobile" required>
+            </label>
+            <label>
+                Business Name:
+                <input type="text" name="business_name" required>
+            </label>
+            <label>
+                Comments:
+                <textarea name="comments"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" value="">
+            <input type="submit" value="Submit">
+        </form>
+        <div class="membership-container">
+            <div class="membership-card" id="bronze">
+                <h3>Bronze</h3>
+                <p>Basic membership with event discounts.</p>
+                <a href="#" onclick="openModal('modal-bronze')">Learn More</a>
+            </div>
+            <div class="membership-card" id="silver">
+                <h3>Silver</h3>
+                <p>Includes training sessions and more.</p>
+                <a href="#" onclick="openModal('modal-silver')">Learn More</a>
+            </div>
+            <div class="membership-card" id="gold">
+                <h3>Gold</h3>
+                <p>Spotlight advertising on our homepage.</p>
+                <a href="#" onclick="openModal('modal-gold')">Learn More</a>
+            </div>
+            <div class="membership-card" id="platinum">
+                <h3>Platinum</h3>
+                <p>All benefits included, plus VIP events.</p>
+                <a href="#" onclick="openModal('modal-platinum')">Learn More</a>
+            </div>
+        </div>
         
     </main>
     <footer>
