@@ -8,6 +8,9 @@ body {
 .headings{
     background: #0073e6;
 }
+p{
+    color: green;
+}
 h2 {
     color: #0073e6;
 }
@@ -36,7 +39,7 @@ tr:hover {
     transition: 0.3s;
 }
 .bronze {
-    background-color: #cd7f32;
+    background-color: #965719;
     color: white;
     font-weight: bold;
 }
@@ -65,6 +68,9 @@ tr:hover {
 }
 .cta-button:hover {
     background-color: #005bb5;
+}
+.personal-infor p{
+    color: #fff;
 }
 
 /* Responsive Styles */

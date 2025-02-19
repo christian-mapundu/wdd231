@@ -1,0 +1,13 @@
+body{
+    background: gray;
+    align-items: center;
+    text-align: center;
+}
+ul li{
+    width: 800px;
+    padding: 10px;
+    background: black;
+    font-size: larger;
+    color: white;
+    border-radius: 50px;
+}
