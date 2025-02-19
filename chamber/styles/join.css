@@ -1,0 +1,83 @@
+.membership-container{
+    background:#022429;
+}
+.membership-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+.membership-card a{
+    color: rgb(250, 244, 244);
+}
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Input focus effect */
+input:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+span.close {
+    color: white;
+}
+input[type="submit"] {
+    width: 100%;
+    background: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Textarea styling */
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+}

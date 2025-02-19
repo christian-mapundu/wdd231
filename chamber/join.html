@@ -3,30 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/directory.css">
-    <link rel="stylesheet" href="styles/directory_small.css">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/list_and_grid.css">
-    <!-- <link rel="stylesheet" href="styles/home.css"> -->
-    <!-- <link rel="stylesheet" href="styles/home-small.css"> -->
-    <script src="scripts/directory.js" defer></script>
-    <script src="scripts/members.js" defer></script>
     <link rel="icon" href="favicon.ico">
     <meta name="author" content="Christian Tawanda Mapundu">
-    <meta name="description" content="Chamber Of Commerce : WDD 231 Web Fronted Development I | Christian Tawanda Mapundu">
+    <meta name="description" content="Project Connekt Learning Hub : WDD 231 Web Fronted Development I | Christian Tawanda Mapundu">
     <meta property="og:title" content="Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Connecting Businesses and creationg opportunities for growth.">
     <meta property="og:image" content="http://mutarecityservicedeliveryplatform.co.zw/wp-content/uploads/sites/309/2018/04/mutare-1-1080x675.jpg">
-    <meta property="og:url" content="https://christian-mapundu.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://christian-mapundu.github.io/wdd231/project/project-site-plan.html">
     <meta name="twitter:card" content="summary_of_the_page">
-    <title>Timbuktu Chamber of Commerce: Directory</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/home-small.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/get-started.css">
+    <script src="scripts/get-started.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <title>Document</title>
 </head>
 <body>
-	<header class="main">
+    <header class="main">
 		<nav class = "navbar">
             <img src="images/logo.webp" alt="Chamber of Commerce logo" class="logo">
 			<h1><a href="directory.html" class="navbranding">Timbuktu</a></h1>
@@ -50,31 +47,67 @@
 				<span class ="bar"></span>
             </div>
 		</nav>
-	</header>
-    <main class="join-content">
-        <img src="images/join-hero-image.webp" alt="Join-page-hero-image" loading="lazy">
-        <h2>Joining and Accomplish</h2>
-        <div class="cta-container">
-            <button class="cta-button" onclick="navigate()">Sign Up for an Event</button>
+    <main>
+        <h2>Join Us At Timbuktu</h2>
+        <form action="thankyou.html" method="POST">
+            <label>
+                First Name:
+                <input type="text" name="first_name" required>
+            </label>
+            <label>
+                Last Name:
+                <input type="text" name="last_name" required>
+            </label>
+            <label>
+                Email:
+                <input type="email" name="email" required>
+            </label>
+            <label>
+                Mobile Number:
+                <input type="tel" name="mobile" required>
+            </label>
+            <label>
+                Business Name:
+                <input type="text" name="business_name" required>
+            </label>
+            <label>
+                Comments:
+                <textarea name="comments"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" value="">
+            <input type="submit" value="Submit">
+        </form>
+        <div class="membership-container">
+            <div class="membership-card" id="bronze">
+                <h3>Bronze</h3>
+                <p>Basic membership with event discounts.</p>
+                <a href="#" onclick="openModal('modal-bronze')">Learn More</a>
+            </div>
+            <div class="membership-card" id="silver">
+                <h3>Silver</h3>
+                <p>Includes training sessions and more.</p>
+                <a href="#" onclick="openModal('modal-silver')">Learn More</a>
+            </div>
+            <div class="membership-card" id="gold">
+                <h3>Gold</h3>
+                <p>Spotlight advertising on our homepage.</p>
+                <a href="#" onclick="openModal('modal-gold')">Learn More</a>
+            </div>
+            <div class="membership-card" id="platinum">
+                <h3>Platinum</h3>
+                <p>All benefits included, plus VIP events.</p>
+                <a href="#" onclick="openModal('modal-platinum')">Learn More</a>
+            </div>
         </div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eligendi magnam velit accusantium quis error culpa facere id deserunt dolorum!</p>
+        <div id="modal-bronze" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal-bronze')">&times;</span>
+                <h2>Bronze Membership</h2>
+                <p>Benefits: Event discounts.</p>
+            </div>
+        </div>        
     </main>
     <footer>
-        <div class="addresses">
-            <h3>Timbuktu Chamber of Commerce</h3>
-            <ul>
-                <li>51 Robert Mugabe Road</li>
-            </ul>
-            <ul>
-                <li>Timbuktu, Mutare 55</li>
-            </ul>
-            <ul>
-                <li>info@timbu.org</li>
-            </ul>
-            <ul>
-                <li>(020) 206-0123</li>
-            </ul>
-        </div>
         <div class="media-links">
             <img src="images/youtube.svg" alt="Youtube">
             <img src="images/twitter.svg" alt="twitter">

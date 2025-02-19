@@ -1,3 +1,9 @@
+document.querySelector('.hamburger').addEventListener('click', () => {
+    const navMenu = document.querySelector('.navMenu');
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+});
+
+
 // get started
 const studyAreas = ["Web Development", "Health", "Communication", "Business", "Digital Marketing", "TESL", "Soft Skills"];
 const tutorsAndMentors = {
@@ -78,3 +84,17 @@ function showRandomTestimonials(testimonials) {
         testimonialsSection.appendChild(div);
     });
 }
+// Last modifies javascript code for the footer
+document.addEventListener("DOMContentLoaded", function() {
+    const lastModifiedSpan = document.getElementById("lastModified");
+    
+    // Get current date
+    const now = new Date();
+    
+    // Format: "Monday, 2025"
+    const options = { weekday: 'long', year: 'numeric' };
+    const formattedDate = now.toLocaleDateString(undefined, options);
+    
+    // Insert into span
+    lastModifiedSpan.textContent = formattedDate;
+});
