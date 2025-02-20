@@ -33,7 +33,7 @@ h2, h3{
 .navlink:hover{
   color: red;
   transition: 0.7s ease-out;
-} */
+}
 .about{
   display: flex;
   gap: 15px;
