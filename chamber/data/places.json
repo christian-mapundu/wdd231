@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Victoria Falls",
+      "address": "Victoria Falls, Matabeleland North, Zimbabwe",
+      "description": "One of the Seven Natural Wonders of the World, Victoria Falls, or 'Mosi-oa-Tunya' (The Smoke That Thunders), is a breathtaking waterfall on the Zambezi River. Visitors can enjoy bungee jumping, helicopter flights, and sunset cruises.",
+      "image": "https://example.com/victoria-falls.webp"
+    },
+    {
+      "name": "Hwange National Park",
+      "address": "Hwange, Matabeleland North, Zimbabwe",
+      "description": "Zimbabwe’s largest national park, covering over 14,600 sq km, home to large herds of elephants, lions, zebras, and more than 400 bird species. Perfect for game drives and walking safaris.",
+      "image": "https://example.com/hwange-national-park.webp"
+    },
+    {
+      "name": "Matobo National Park",
+      "address": "Matobo Hills, Matabeleland South, Zimbabwe",
+      "description": "Famous for dramatic balancing rock formations, Bushmen rock art, and one of Africa’s largest leopard populations. The park is also home to white rhinos and the grave of Cecil Rhodes.",
+      "image": "https://example.com/matobo-national-park.webp"
+    },
+    {
+      "name": "Great Zimbabwe Ruins",
+      "address": "Masvingo, Zimbabwe",
+      "description": "A UNESCO World Heritage Site, these ruins are the remains of an ancient Shona city built between the 11th and 15th centuries, featuring impressive stone structures and historical significance.",
+      "image": "https://example.com/great-zimbabwe-ruins.webp"
+    },
+    {
+      "name": "Mana Pools National Park",
+      "address": "Lower Zambezi Valley, Zimbabwe",
+      "description": "A UNESCO World Heritage Site, this park along the Zambezi River is known for its abundant wildlife, including elephants, lions, hippos, and crocodiles. It offers exceptional canoe and walking safaris.",
+      "image": "https://example.com/mana-pools.webp"
+    },
+    {
+      "name": "Chinhoyi Caves",
+      "address": "Chinhoyi, Mashonaland West, Zimbabwe",
+      "description": "A mystical limestone cave system featuring the stunning Sleeping Pool with deep blue waters. It is a popular site for scuba diving and holds historical significance in local mythology.",
+      "image": "https://example.com/chinhoyi-caves.webp"
+    },
+    {
+      "name": "Nyanga National Park",
+      "address": "Nyanga, Manicaland, Zimbabwe",
+      "description": "Home to Mount Nyangani (Zimbabwe’s highest peak) and Mutarazi Falls. The park is great for hiking, fishing, and exploring ancient ruins while spotting unique wildlife.",
+      "image": "https://example.com/nyanga-national-park.webp"
+    },
+    {
+      "name": "Gonarezhou National Park",
+      "address": "Southeast Zimbabwe, near Mozambique border",
+      "description": "Meaning 'Place of Elephants,' this remote park is known for the stunning red sandstone Chilojo Cliffs and diverse wildlife, including elephants, lions, and wild dogs.",
+      "image": "https://example.com/gonarezhou.webp"
+    }
+  ]
+  
