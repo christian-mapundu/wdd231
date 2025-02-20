@@ -27,9 +27,6 @@ h2{
 .hidden {
     display: none;
 }
-#list, #student-requests {
-    /* margin-top: 20spx; */
-}
 .hero-container {
     position: relative;
     display: inline-block;
