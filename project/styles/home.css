@@ -9,12 +9,12 @@ header, main, footer{
     width: 80px;
     margin: 5px;
     border-radius: 50%;
-  }
-  h2, h3{
-    font-size: 30px;
-    color: white;
-    text-align: center;
-  }
+}
+h2, h3{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
 .navMenu ul {
   display: flex;
   list-style: none;
@@ -56,12 +56,6 @@ div img{
   margin-right: 5px;
   border-radius: 50%;
   border: 1px solid red;
-}
-.mission-goals{
-  /* display: flex; */
-}
-.mission{
-  /* display: grid; */
 }
 .goals-container {
   display: flex;
@@ -129,10 +123,6 @@ footer p {
   align-items: center;
   padding: 1rem;
   color: white;
-}
-
-.logo img {
-  /* max-width: 50px; */
 }
 .navlink {
   color: white;
